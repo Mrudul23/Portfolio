@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<title>My portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="fonts.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.mk-row-padding img {margin-bottom: 12px}
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("pic.jpg");
+  min-height: 100%;
+}
+</style>
+<body>
+
+<!-- Sidebar with image -->
+<nav class="mk-sidebar mk-hide-medium mk-hide-small" style="width:40%">
+  <div class="bgimg"></div>
+</nav>
+
+<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+<nav class="mk-sidebar mk-black mk-animate-right mk-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="mk-button mk-black mk-xxxlarge mk-display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="mk-bar-block mk-center">
+    <a href="#" class="mk-bar-item mk-button mk-text-grey mk-hover-black" onclick="closeNav()">Home</a>
+    <a href="#portfolio" class="mk-bar-item mk-button mk-text-grey mk-hover-black" onclick="closeNav()">Development projects</a>
+    <a href="#about" class="mk-bar-item mk-button mk-text-grey mk-hover-black" onclick="closeNav()">About</a>
+    <a href="#certificate" class="mk-bar-item mk-button mk-text-grey mk-hover-black" onclick="closeNav()">Certificates</a>
+    <a href="#Intrests" class="mk-bar-item mk-button mk-text-grey mk-hover-black" onclick="closeNav()">Intrests</a>    
+    <a href="#contact" class="mk-bar-item mk-button mk-text-grey mk-hover-black" onclick="closeNav()">Contact</a>
+
+  </div>
+</nav>
+
+<!-- Page Content -->
+<div class="mk-main mk-padding-large" style="margin-left:40%">
+
+  <!-- Menu icon to open sidebar -->
+  <span class="mk-button mk-top mk-white mk-xxlarge mk-text-grey mk-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+  <header class="mk-container mk-center" style="padding:80px 16px" id="home">
+    <h1 class="mk-jumbo"><b>Mrudul Kokala</b></h1>
+    <p>⭐ Multi talented whiz-kid ⭐</p>
+  </header>
+
+  <!-- About Section -->
+  <div class="mk-content mk-justify mk-text-grey mk-padding-32" id="about">
+    <h2>About</h2>
+    <hr class="mk-opacity">
+    <font size=4>
+    <p>Mrudul is a multi-talented kid who is a great artist in the domain of drawing and painting. He also knows how to meticulously solve 13 varieties of Rubik's Cubes. Mrudul possesses a very fortunate gift of being attentive and top his class along with being an athlete playing cricket and badminton. He aims to become a doctor and help the society by providing healthcare services and bringing out some revolutionary changes in the field of medicine.
+    </p>
+  </font>
+    <h3 class="mk-padding-16">My Skills</h3>
+    <p class="mk-wide">Drawing and painting</p>
+    <div class="mk-light-grey">
+      <div class="mk-container mk-center mk-padding-small mk-dark-grey" style="width:98%">98%</div>
+    </div>
+    <p class="mk-wide">Sports</p>
+    <div class="mk-light-grey">
+      <div class="mk-container mk-center mk-padding-small mk-dark-grey" style="width:95%">95%</div>
+    </div>
+    <p class="mk-wide">Coding</p>
+    <div class="mk-light-grey">
+      <div class="mk-container mk-center mk-padding-small mk-dark-grey" style="width:100%">99%</div>
+    </div>
+    <p class="mk-wide">Education</p>
+    <div class="mk-light-grey">
+      <div class="mk-container mk-center mk-padding-small mk-dark-grey" style="width:100%">97%</div>
+    </div>
+    <br>
+
+    <div class="mk-row mk-center mk-dark-grey mk-padding-16 mk-section">
+      <div class="mk-half mk-section">
+        <span class="mk-xlarge">50+</span><br>
+        Games created
+      </div>
+      <div class="mk-half mk-section">
+        <span class="mk-xlarge">13+</span><br>
+      Cubes solver         
+      </div>
+      
+    </div>
+
+    
+
+     <!-- Developments Section -->
+  <div class="mk-padding-32 mk-content" id="portfolio">
+    <h2 class="mk-text-grey">Development Projects / Games</h2>
+    <hr class="mk-opacity">
+
+    <!--Add photos of projects and make them a hyperlink-->
+
+    <!-- Grid for photos -->
+    <div class="mk-row-padding" style="margin:0 -16px">
+      <div class="mk-half">
+        <img src="pic.jpg" style="width:100%">
+        <img src="pic.jpg" style="width:100%">
+        <img src="pic.jpg" style="width:100%">
+      </div>
+
+      <div class="mk-half">
+        <img src="pic.jpg" style="width:100%">
+        <img src="pic.jpg" style="width:100%">
+        <img src="pic.jpg" style="width:100%">
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Developments Section -->
+  </div>
+
+
+    <div class="mk-padding-32 mk-content" id="certificate">
+      <h2 class="mk-text-grey">Certificates</h2>
+      <hr class="mk-opacity">
+  
+      <!--Add photos of certificates-->
+  
+      <!-- Grid for photos -->
+      <div class="mk-row-padding" style="margin:0 -16px">
+        <div class="mk-half">
+          <img src="pic.jpg" style="width:100%">
+          <img src="pic.jpg" style="width:100%">
+          <img src="pic.jpg" style="width:100%">
+        </div>
+  
+        <div class="mk-half">
+          <img src="pic.jpg" style="width:100%">
+          <img src="pic.jpg" style="width:100%">
+          <img src="pic.jpg" style="width:100%">
+
+        </div>
+      <!-- End photo grid -->
+      </div>
+    <!-- End certificate Section -->
+    </div>
+
+    <div class="mk-padding-32 mk-content" id="Intrests">
+      <h2 class="mk-text-grey">Intrests</h2>
+      <hr class="mk-opacity">
+  
+      <!--Add photos of Intrests-->
+  
+      <!-- Grid for photos -->
+      <div class="mk-row-padding" style="margin:0 -16px">
+        <div class="mk-half">
+          <img src="pic.jpg" style="width:100%">
+          <img src="pic.jpg" style="width:100%">
+          <img src="pic.jpg" style="width:100%">
+        </div>
+  
+        <div class="mk-half">
+          <img src="pic.jpg" style="width:100%">
+          <img src="pic.jpg" style="width:100%">
+          <img src="pic.jpg" style="width:100%">
+        </div>
+      <!-- End photo grid -->
+      </div>
+    <!-- End certificate Section -->
+    </div>
+
+    
+  <!-- End About Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="mk-padding-32 mk-content mk-text-grey" id="contact" style="margin-bottom:64px">
+    <h2>Contact Me</h2>
+    <hr class="mk-opacity">
+
+    <div class="mk-section">
+      <p><i class="fa fa-map-marker fa-fw mk-xxlarge mk-margin-right"></i> Telangana, India</p>
+      <p><i class="fa fa-phone fa-fw mk-xxlarge mk-margin-right"></i> Phone: +91 9396567843 </p>
+      <p><i class="fa fa-envelope fa-fw mk-xxlarge mk-margin-right"> </i> Email: mrudulkokala25@gmail.com</p>
+    </div>
+    
+
+    <div class="mk-padding-32 mk-content mk-text-grey" id="messageme" style="margin-bottom:64px">
+      <h2>Message Me</h2>
+      <hr class="mk-opacity">
+    <p>Lets get in touch. Send me a message:</p>
+      <p><input class="mk-input mk-padding-16 mk-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="mk-input mk-padding-16 mk-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="mk-input mk-padding-16 mk-border" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="mk-input mk-padding-16 mk-border" type="text" placeholder="Message" required name="Message"></p>
+      
+      <p>
+        <button class="mk-button mk-light-grey mk-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </header>
+  </div>  
+  
+  <!-- Footer -->
+  <!--https://www.mkschools.com/icons/default.asp (list of icons available)-->
+  <footer class="mk-container mk-padding-64 mk-light-grey mk-center mk-opacity mk-xlarge" style="margin:-14px">
+    <a href="https://www.facebook.com/profile.php?id=100008289292204">
+    <i class="fa fa-facebook-official mk-hover-opacity"></i></a>
+    <i class="fa fa-instagram mk-hover-opacity"></i>
+    <i class="fa th-large mk-hover-opacity"></i>
+    <i class="fa fa-pinterest-p mk-hover-opacity"></i>
+    <i class="fa fa-twitter mk-hover-opacity"></i>
+    <i class="fa fa-linkedin mk-hover-opacity"></i>
+    <i class="fa fa-youtube mk-hover-opacity"></i>
+    <a href="https://github.com">
+    <i class="fa fa-github mk-hover-opacity"></i>
+    </a>
+    
+  <!-- End footer -->
+  </footer>
+  
+<!-- END PAGE CONTENT -->
+</div>
+
+<script>
+// Open and close sidebar
+function openNav() {
+  document.getElementById("mySidebar").style.width = "60%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+<script></script>
+
+</body>
+</html>
